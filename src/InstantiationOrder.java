@@ -43,7 +43,7 @@ class C extends B implements A{
     // variable declaration.
     // It's ok. Order of declaration variables in the body of the class is no matter.
     // Also remember, variables cannot be override. They are only shadowed. So you can
-    // restrict access modifier.
+    // restrict access modifier for variables.
     private static int y;
     // constructor
     C(){
