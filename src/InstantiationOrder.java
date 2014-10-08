@@ -1,9 +1,10 @@
 public class InstantiationOrder {
     public static void main(String[] args) {
         // There is 1-st question
-        // How do you think, would the next line of the code produce a NullPointerException
-        // and if not, then would be occurred static initialization of all classes in hierarchy tree
-        // from A to C ?
+        // How do you think, would the next line of the code
+        // produce a NullPointerException and if not,
+        // then would be occurred static initialization
+        // of all classes in hierarchy tree from A to C ?
         C c = null;
         System.out.println(c.x);
 
@@ -41,9 +42,11 @@ class C extends B implements A{
     // instance init block
     {y=33;}
     // variable declaration.
-    // It's ok. Order of declaration variables in the body of the class is no matter.
-    // Also remember, variables cannot be override. They are only shadowed. So you can
-    // restrict access modifier for variables.
+    // It's ok. Order of declaration variables in the body
+    // of the class is no matter.
+    // Also remember, variables cannot be override.
+    // They are only shadowed. So you can restrict access modifier,
+    // what you can't do with overriden methods!
     private static int y;
     // constructor
     C(){
