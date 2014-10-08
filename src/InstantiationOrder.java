@@ -41,7 +41,7 @@ class C extends B implements A{
     // instance init block
     {y=33;}
     // variable declaration.
-    // It's ok. Order of declaration variables in the body of the class is no matter
+    // It's ok. Order of declaration variables in the body of the class is no matter.
     // Also remember, variables cannot be override. They are only shadowed. So you can
     // restrict access modifier
     private static int y;
