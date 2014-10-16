@@ -10,7 +10,6 @@ public class CountingWordsUsingGiorgioSuggestion {
         int countOfDifferWords = 0;
         Pattern pat = Pattern.compile("\\w+");
         Matcher mat = pat.matcher(input);
-        StringBuilder sb = new StringBuilder(input);
         String curr = input;
         while (mat.find()) {
             countOfDifferWords++;
